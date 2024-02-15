@@ -1,0 +1,12 @@
+.homepage {
+  display: flex;
+}
+.profile {
+  width: 30vw;
+}
+.mainSection {
+  width: 40vw;
+}
+.settings {
+  width: 30vw;
+}

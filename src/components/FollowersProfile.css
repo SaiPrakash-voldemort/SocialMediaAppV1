@@ -1,0 +1,44 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.followersProfile {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.othersProfile h4 {
+  margin: 0px;
+}
+.followersUserName {
+  font-weight: 200;
+}
+.followButton {
+  background-image: linear-gradient(
+    to right,
+    #1fa2ff 0%,
+    #12d8fa 51%,
+    #1fa2ff 100%
+  );
+  margin: 2px;
+  padding: 5px 10px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  font-weight: 400;
+}
+.followButton:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.followersImage {
+  height: 50px;
+  width: 50px;
+}

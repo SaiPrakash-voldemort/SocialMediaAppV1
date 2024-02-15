@@ -1,0 +1,108 @@
+.topSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.shareSomething {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 5px;
+  margin: 2px;
+}
+.shareSomething img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  margin: 5px;
+}
+.shareSomething input {
+  border: none;
+  outline: none;
+  background: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  font-size: 1rem;
+  width: 27rem;
+}
+.uploadMedia {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.uploadMedia img {
+  height: 15px;
+  width: 15px;
+}
+.uploadPhoto {
+  gap: 2px;
+  display: flex;
+  align-items: center;
+}
+.uploadVideo {
+  gap: 2px;
+
+  display: flex;
+  align-items: center;
+}
+
+.uploadLocation {
+  gap: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.uploadSchedule {
+  gap: 2px;
+  display: flex;
+  align-items: center;
+}
+.uploadShare button {
+  background-image: linear-gradient(
+    to right,
+    #1fa2ff 0%,
+    #12d8fa 51%,
+    #1fa2ff 100%
+  );
+  margin: 2px;
+  padding: 5px 10px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  font-weight: 400;
+}
+.uploadShare button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.uploadPhoto h5 {
+  color: #078207;
+}
+.uploadVideo h5 {
+  color: #005d7b;
+}
+.uploadLocation h5 {
+  color: red;
+}
+.uploadSchedule h5 {
+  color: #03f;
+}
